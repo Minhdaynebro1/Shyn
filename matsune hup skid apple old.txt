@@ -17,8 +17,8 @@
 
 _G.HoHoLoaded = true
 notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
-notify.New("Script Blox Fruit!", 60)
-notify.New("Matsune Hub", 60)
+notify.New("Script Blox Fruits!", 60)
+notify.New("World Hub", 60)
 
 function Matsune(text)
 		local Notification = require(game.ReplicatedStorage.Notification)
@@ -35,7 +35,7 @@ function Matsune(text)
 		return false
 	end
 
-Matsune("<Color=Purple>-Hello you, thank you for using the hack<Color=/>")
+Matsune("<Color=Purple>-Chúc Bản Trải Nghiệm Vui Vẻ<Color=/>")
 Matsune("<Color=Purple>Script loading...<Color=/>")
 
 Matsune("<Color=Purple>4<Color=/>")
@@ -4026,10 +4026,10 @@ local Misc = Library:AddTab("Misc","4483345998")
 local Time = File:AddLabel("Executor Time");spawn(function() getgenv().Time = true;while true do wait(.1) UpdateTime() end end);function UpdateTime() local date = os.date("*t");local hour = (date.hour) % 24;local ampm = hour < 12 and "AM" or "PM";local timezone = string.format("%02i:%02i:%02i %s", ((hour -1) % 12) + 1, date.min, date.sec, ampm);local datetime = string.format("%02d/%02d/%04d", date.day, date.month, date.year);local LocalizationService = game:GetService("LocalizationService");local Players = game:GetService("Players");local player = Players.LocalPlayer;local name = player.Name;local result, code = pcall(function()   return LocalizationService:GetCountryRegionForPlayerAsync(player)  end);Time:Set(" : " .. timezone);Time:Set("Executor Time: " .. datetime .. " [ " .. code .. " ]");spawn(function() if getgenv().Time then pcall(function()  while wait() do  Time()  end end) end end) end
 
 File:AddLabel("Script PC/Mobile")
-File:AddLabel("Wellcone To Script Matsune Hub V2")
-File:AddLabel("Winter Hub Update Matsune Hub")
+File:AddLabel("Wellcone To Script World Hub V2")
+File:AddLabel("Winter Hub Update World Hub")
 File:AddLabel("Link discrod me")
-File:AddLabel("https://discord.com/invite/ksNWJX2A")
+File:AddLabel("https://discord.com/invite/fszbjR4Kpu")
 
 File:AddSeperator("Status")
     
@@ -14734,18 +14734,18 @@ game:GetService("Players").LocalPlayer.Idled:connect(function()
 	game:GetService("VirtualUser"):Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 end)
 
-print("Matsune Hub V3 Load Complete")
+print("World Hub V3 Load Complete")
 
 game.StarterGui:SetCore("SendNotification", {
       Icon = "http://www.roblox.com/asset/?id=17314862794";
-      Title = "Matsune Hub V3", 
-      Text = "hello Script Matsune";
-      Button1 = "Okay"
+      Title = "Bot : Shyn Official🔑", 
+      Text = "I Am Official Shyn Bot🔑";
+      Button1 = "Okay :3"
 })
 wait(3)
 game.StarterGui:SetCore("SendNotification", {
       Icon = "http://www.roblox.com/asset/?id=17314862794";
-      Title = "Matsune Hub V3", 
-      Text = "Thank you for using my hack";
-       Button1 = "Okay"
+      Title = "Owner : ytnhatminh", 
+      Text = "Thank You For Using Hack Me";
+       Button1 = "Okay :3"
 })    
